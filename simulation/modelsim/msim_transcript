@@ -1,0 +1,81 @@
+# do L6P2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying /usr/local/cms/altera_lite/16.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project\ (copy)/vga_adapter {/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/vga_adapter/vga_pll.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 00:53:55 on Mar 20,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/vga_adapter" /cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/vga_adapter/vga_pll.v 
+# -- Compiling module vga_pll
+# 
+# Top level modules:
+# 	vga_pll
+# End time: 00:53:55 on Mar 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project\ (copy)/vga_adapter {/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/vga_adapter/vga_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 00:53:55 on Mar 20,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/vga_adapter" /cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/vga_adapter/vga_controller.v 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 00:53:55 on Mar 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project\ (copy)/vga_adapter {/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/vga_adapter/vga_address_translator.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 00:53:55 on Mar 20,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/vga_adapter" /cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/vga_adapter/vga_address_translator.v 
+# -- Compiling module vga_address_translator
+# 
+# Top level modules:
+# 	vga_address_translator
+# End time: 00:53:55 on Mar 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project\ (copy)/vga_adapter {/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/vga_adapter/vga_adapter.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 00:53:55 on Mar 20,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/vga_adapter" /cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/vga_adapter/vga_adapter.v 
+# -- Compiling module vga_adapter
+# 
+# Top level modules:
+# 	vga_adapter
+# End time: 00:53:55 on Mar 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project\ (copy) {/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/updated_part2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 00:53:55 on Mar 20,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)" /cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/updated_part2.v 
+# -- Compiling module L6P2
+# -- Compiling module control
+# ** Error: (vlog-13025) /cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/updated_part2.v(153): near ":": Syntax error. Statement labels are only allowed in SystemVerilog.
+# ** Error: /cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/updated_part2.v(158): A label for a block can be specified before 'begin' only in SystemVerilog.
+# ** Error: (vlog-13069) /cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/updated_part2.v(158): near "=": syntax error, unexpected '='.
+# ** Error: /cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/updated_part2.v(158): (vlog-13205) Syntax error found in the scope following 'ld_y'. Is there a missing '::'?
+# End time: 00:53:55 on Mar 20,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /usr/local/cms/altera_lite/16.0/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./L6P2_run_msim_rtl_verilog.do line 12
+# /usr/local/cms/altera_lite/16.0/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project\ (copy) {/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (..."
+# 
+# stdin: <EOF>
+# Load canceled
+vlog -reportprogress 300 -work work {/cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/simulation/modelsim/L6P2_min_1200mv_0c_fast.vo}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 00:54:27 on Mar 20,2017
+# vlog -reportprogress 300 -work work /cmshome/dinghugh/Desktop/DINGDINGDING/B58_project (copy)/simulation/modelsim/L6P2_min_1200mv_0c_fast.vo 
+# -- Compiling module L6P2
+# 
+# Top level modules:
+# 	L6P2
+# End time: 00:54:27 on Mar 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
